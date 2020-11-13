@@ -3,13 +3,21 @@ body{
 }
 
 .sidebar {
-  width: 150px;
+  width: 1500px;
   background-color: lightgrey;
-  height: 100vh;
+  height: 1000vh;
   padding-left: 10px;
+  margin-bottom: 16px;
+  justify-content: space-around;
+
 }
 
 .item {
+  font-size: 40px;
   font-weight: bold;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
+  margin: 1em 0;
+ flex-direction: column
+ 
+
 }

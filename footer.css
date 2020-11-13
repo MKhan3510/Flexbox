@@ -1,24 +1,42 @@
 
 body {
-  margin: 0px;
+  margin: 5px;
+  display:flex;
+  align-items: flex-start;   
+  flex-direction: row;  
+  flex-wrap: wrap;
+  
 }
 
 .footer {
   height: 150px;
   background-color: lightgrey;
+  flex-direction: row 
+  justify-content: space-between;
 }
 
 .title {
   font-weight: bold;
   font-size: 12px;
+  width: 100px;
+  margin: 1px;
+  text-align: left;
+  line-height: 12px;
 }
 
 .info {
   font-size: 10px;
+  width: 100px;
+  margin: 1px;
+  text-align: left;
+  line-height: 12px;
 }
+
 
 .item {
   padding: 10px;
   width: 150px;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
+  align-items: center;
+ 
 }
